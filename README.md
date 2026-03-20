@@ -39,7 +39,7 @@ A base foi dividida em 11 segmentos estratégicos. Os destaques encontrados nos 
 ---
 
 ## 💡 Aplicação de Negócio
-[Tabela com Recomendações](screenshots/segmentação.png)
+[Tabela com Recomendações](screenshots/segmentos.png)
 1.  **Marketing Direto:** Segmentação de campanhas de e-mail e tráfego pago com base nas notas de RFM.
 2.  **Customer Success:** Identificação precoce de Churn através da análise de Cohort.
 

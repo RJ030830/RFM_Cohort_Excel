@@ -18,6 +18,7 @@ A análise foi construída inteiramente no **Excel**, utilizando **Power Query**
 ## 📈 Principais Insights
 
 ### 1. Segmentação RFM
+[Gráfico RFM](screenshots/rfm.png)
 A base foi dividida em 11 segmentos estratégicos. Os destaques encontrados nos dados incluem:
 * **Campeões:** Grupo de elite com um **ticket médio de R$ 7.210,18** e recência baixíssima (média de 29 dias). *Ação: Programa de fidelidade exclusivo.*
 * **Clientes Fiéis:** Apresentam alta frequência (média de 8 compras), consolidando a base de receita.
@@ -25,19 +26,20 @@ A base foi dividida em 11 segmentos estratégicos. Os destaques encontrados nos 
 * **Em Risco / Quase Dormentes:** Segmentos que não compram há meses, exigindo réguas de reativação imediatas.
 
 ### 2. Retenção (Cohort)
+[Gráfico Cohort](screenshots/cohort.png)
 * **Taxa de Retenção Crítica:** A análise de Cohort revelou que a retenção média após 12 meses estabiliza em **7,7%**.
 * **Janela de Engajamento:** Identificou-se que os primeiros 3 meses são cruciais; safras que recebem acompanhamento inicial tendem a apresentar maior sobrevida na base.
 
 ---
 
 ## 📂 Estrutura do Repositório
-* `Analise_Segmentacao_RFM.xlsx`: Arquivo principal com Power Query, Cálculos e Dashboards.
-* `/data`: Contém os CSVs originais (Customers, Orders, Location, Product).
-* `/screenshots`: Imagens dos Dashboards e tabelas de Cohort.
+* `Analise_Segmentacao_RFM.xlsx`: Arquivo com Power Query, Cálculos e Dashboards.
+* `/screenshots`: Imagens dos gráficos para Cohort e segmentação RFM.
 
 ---
 
 ## 💡 Aplicação de Negócio
+[Tabela com Recomendações](screenshots/segmentação.png)
 1.  **Marketing Direto:** Segmentação de campanhas de e-mail e tráfego pago com base nas notas de RFM.
 2.  **Customer Success:** Identificação precoce de Churn através da análise de Cohort.
 
